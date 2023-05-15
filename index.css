@@ -1,12 +1,7 @@
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
+#div1 ~ p {
     color: green;
 }
 
-a:active {
-    color: red;
-}
+/* #div1 + p {
+    color: green;
+} */

@@ -20,5 +20,7 @@
   - Class selector (.className)
   - Attribute (element[attribute="value"])
   - Pseudo class (element:) & Pseudo element (::) selector
-  - Child, descendant, ascendant, general sibling selector
+  - Child, descendant (all descendants will inherit styles, if you want only a child: #id > element), 
+    adjacent (if you want to change the style of one next element: #id + element),
+    general (if you want to change the style of all next elements: #id ~ element) sibling selector
 
