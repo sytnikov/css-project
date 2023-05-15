@@ -17,4 +17,5 @@
 
   - Element/Tag, Grouping (h1, p), Nested selectors (ul li a), Universal (*)
   - ID selector (#id)
+  - Class selector (.className)
 
