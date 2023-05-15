@@ -19,4 +19,6 @@
   - ID selector (#id)
   - Class selector (.className)
   - Attribute (element[attribute="value"])
+  - Pseudo class (element:) & Pseudo element (::) selector
+  - Child, descendant, ascendant, general sibling selector
 
