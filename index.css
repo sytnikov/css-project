@@ -1,11 +1,7 @@
-* {
-    background-color: aqua;
+#sec1 {
+    background-color: green;
 }
 
-h1, p {
-    color: blue;
-}
-
-ul li a {
-    color: brown;
+#sec2 {
+    background-color: brown;
 }
