@@ -1,7 +1,6 @@
-#div1 ~ p {
-    color: green;
+p {
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
 }
-
-/* #div1 + p {
-    color: green;
-} */

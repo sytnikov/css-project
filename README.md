@@ -24,3 +24,9 @@
     adjacent (if you want to change the style of one next element: #id + element),
     general (if you want to change the style of all next elements: #id ~ element) sibling selector
 
+  3. Typography
+
+  - Font properties: font-size (1 rem = 16px = 100%), font-weight (400 - normal), font-style, font-family
+  - How to use Goole font
+  - 
+
