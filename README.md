@@ -28,6 +28,7 @@
 
   - Font properties: font-size (1 rem = 16px = 100%), font-weight (400 - normal), font-style, font-family
   - How to use Goole font
-  - color: colorName, RGB, Hexa, Important color tool: color picker, flat ui colors, colohunt
-  - Text properties
-
+  - color: colorName, RGB, Hexa, Important color tool: color picker, flat ui colors, colorhunt
+  - Text properties: text-transform, text-decoration, text-indent, letter-spacing, text-shadow, line-height
+  - Icon and emoji styling
+  - Adding font awesome icons + styling

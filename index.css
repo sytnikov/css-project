@@ -1,8 +1,17 @@
-p {
-    font-size: 1.2rem;
-    font-weight: 900;
-    font-style: italic;
+h1 {
     font-family: 'Roboto', sans-serif;
-    color: #76446f
+    /* text-align: center; */
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-indent: 16px;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.2rem red;
+}
 
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5rem;
 }
