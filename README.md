@@ -40,3 +40,9 @@
   - width (not responsive) vs max-width (responsive)
   - opacity [0, 1], overflow: visible (by default), hidden (overflow part iss invisible), scroll, auto
   - background properties: background-image, background-repeat, background-position, background-attachment, background-size
+
+
+- B. Advanced
+
+  - Variables (can be used when the styles are the same for different elements; declaring -> :root {--variable: value}; calling color: var(--variable)), filter (for example picture saturation [0, 1] using element:hover pseudo class)
+  - Shadow: text and box shadow. box-shadow: x-axis y-axis blur color
