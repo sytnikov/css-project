@@ -30,5 +30,5 @@
   - How to use Goole font
   - color: colorName, RGB, Hexa, Important color tool: color picker, flat ui colors, colorhunt
   - Text properties: text-transform, text-decoration, text-indent, letter-spacing, text-shadow, line-height
-  - Icon and emoji styling
+  - Icon and emoji styling: fontawesome cdn to link the page with fa -> go to fa website and copy the code of the icon, you can create a class and add it to css file
   - Adding font awesome icons + styling
