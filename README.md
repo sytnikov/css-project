@@ -32,3 +32,11 @@
   - Text properties: text-transform, text-decoration, text-indent, letter-spacing, text-shadow, line-height
   - Icon and emoji styling: fontawesome cdn to link the page with fa -> go to fa website and copy the code of the icon, you can create a class and add it to css file
   - Adding font awesome icons + styling
+
+  4. Box model:
+  - content, padding, border, margin
+  - box-sizing: border-box (to have fixed width, padding and border takes the width from the inside, but not margin)
+  - display: inline / block / inline-block (especially useful if you don't margin for inline elements)
+  - width (not responsive) vs max-width (responsive)
+  - opacity [0, 1], overflow: visible (by default), hidden (overflow part iss invisible), scroll, auto
+  - background properties: background-image, background-repeat, background-position, background-attachment, background-size

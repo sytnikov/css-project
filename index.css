@@ -1,22 +1,16 @@
-h1 {
-    font-family: 'Roboto', sans-serif;
-    /* text-align: center; */
-    text-transform: lowercase;
-    text-decoration: underline;
-    text-indent: 16px;
-    letter-spacing: 0.2rem;
-    text-shadow: 0.1rem 0.2rem red;
+* {
+    box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+header {
+    background-image: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    height: 50vh;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
-p {
-    line-height: 1.5rem;
-}
-
-i {
-    color: #aaaaaa;
-    font-size: 2rem;
+h2 {
+    color: red;
 }
