@@ -46,3 +46,12 @@
 
   - Variables (can be used when the styles are the same for different elements; declaring -> :root {--variable: value}; calling color: var(--variable)), filter (for example picture saturation [0, 1] using element:hover pseudo class)
   - Shadow: text and box shadow. box-shadow: x-axis y-axis blur color
+  - Layouts
+  
+  float: make a row in HTML file (.row class) -> float property: left or right, after using it use ::after pseudo element to clear float, content = "", display: table, clear: both
+  
+  positioning: 'static' is default, if you want to move a child in the parent use 'relative', 'fixed' the spacing is related to the screen, 'absolute' is for the child and parent should have 'relative'-> then you can set child's position
+
+  z-index: to make an order of blocks, for using z-index you need to set position for the element
+
+  flex -> property display: flex; flex-direction: row (by default) / column; gap property for the flex layout

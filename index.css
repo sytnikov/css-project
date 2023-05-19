@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 0rem;
+    left: 0rem;
+    background-color: aquamarine;
+    width: 100%;
+}
+
 header {
     background-image: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
     height: 50vh;
@@ -11,6 +20,23 @@ header {
     background-size: cover;
 }
 
-h2 {
-    color: red;
+.tutorials {
+    height: 80vh;
+    background-color: azure;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
+
+.tutorial {
+    background-color: orange;
+    height: 20vh;
+    width: 30%;
+}
+
+.tutorial h2 {
+
+}
+
+
