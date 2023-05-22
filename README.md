@@ -54,4 +54,4 @@
 
   z-index: to make an order of blocks, for using z-index you need to set position for the element
 
-  flex -> property display: flex; flex-direction: row (by default) / column; gap property for the flex layout
+  flex -> property display: flex; flex-direction: row (by default) / column; gap property for the flex layout; you need to declare flex in a parent section to apply properties for a child; justify-content (left - right), align-items (top - bottom); it's also important to add height property to use align-items
