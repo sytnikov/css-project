@@ -34,8 +34,7 @@ header {
 }
 
 .skills {
-    background-color: bisque;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .section-title {
@@ -43,8 +42,7 @@ header {
 }
 
 .row {
-    background-color: aqua;
-    height: 50vh;
+    min-height: 50vh;
     gap: 2rem;
 }
 
@@ -54,7 +52,7 @@ header {
 }
 
 .tutorials {
-    height: 60vh;
+    min-height: 60vh;
     gap: 1rem;
 }
 
@@ -68,7 +66,7 @@ header {
 /* team memeber starts */
 
 .team-section {
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -93,3 +91,34 @@ header {
 }
 /* team memeber ends */
 
+/* responsiveness starts here  */
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 768px) {
+    .team-members {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+@media screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+    
+    .skills {
+        padding: 2rem;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row .card {
+        width: 80%;
+    }
+    .tutorials {
+        flex-direction: column;
+    }
+    .tutorials .tutorial {
+        width: 75%;
+    }
+}
+/* responsiveness ends here  */

@@ -64,3 +64,8 @@
   minmax(a, b) - setting a range of the values, can be replaces with a concrete value to make the page more responsive
   grid-column (property for an element in the grid): 1 / span 3 -> the element will start with position 1 and will go through three positions; 2 / 4 -> the element will start with position 2 and will stop before position 4;
 
+  - Responsiveness
+box-sizing: border-box -> should be in the universal class
+@media screen -> a query to let the machine now how to behave for different screens, for example
+@media screen and (max-width: 600px) {} -> the changes will apply for the sreens with the width 600px and less 
+ 
