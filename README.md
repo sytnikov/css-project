@@ -54,4 +54,13 @@
 
   z-index: to make an order of blocks, for using z-index you need to set position for the element
 
-  flex -> property display: flex; flex-direction: row (by default) / column; gap property for the flex layout; you need to declare flex in a parent section to apply properties for a child; justify-content (left - right), align-items (top - bottom); it's also important to add height property to use align-items
+  flex (row or column at a time) -> property display: flex; flex-direction: row (by default) / column; gap property for the flex layout; you need to declare flex in a parent section to apply properties for a child; justify-content (left - right), align-items (top - bottom); it's also important to add height property to use align-items
+
+  grid layout 
+  parent-child reletionships are very important
+  display: grid; 
+  properties: grid-template-columns: 33% 33% 33% -> will divide the width into three identical parts
+  repeat (4, auto) -> for the grid-template-columns attribute to repeat auto 4 times
+  minmax(a, b) - setting a range of the values, can be replaces with a concrete value to make the page more responsive
+  grid-column (property for an element in the grid): 1 / span 3 -> the element will start with position 1 and will go through three positions; 2 / 4 -> the element will start with position 2 and will stop before position 4;
+

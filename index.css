@@ -54,8 +54,7 @@ header {
 }
 
 .tutorials {
-    height: 80vh;
-    background-color: azure;
+    height: 60vh;
     gap: 1rem;
 }
 
@@ -66,5 +65,31 @@ header {
 }
 
 
+/* team memeber starts */
 
+.team-section {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+}
+
+.team-member {
+    background-color: orange;
+    padding: 1rem;
+}
+
+#team-member2 {
+    background-color: green;
+    color: aliceblue;
+    /* grid-column: 2 / 4; */
+}
+/* team memeber ends */
 
