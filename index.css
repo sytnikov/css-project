@@ -24,6 +24,16 @@ nav ul {
     gap: 2rem;
 }
 
+nav ul li a {
+    color: brown;
+    transition: all 0.4s linear;
+}
+
+nav ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 header {
     background-image: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
     height: 50vh;
@@ -60,6 +70,12 @@ header {
     background-color: orange;
     height: 20vh;
     width: 30%;
+    border-radius: 16px;
+    transition: all 0.3s linear;
+}
+.tutorial:hover {
+    background-color: green;
+    color: red;
 }
 
 
@@ -92,9 +108,6 @@ header {
 /* team memeber ends */
 
 /* responsiveness starts here  */
-@media screen and (max-width: 1200px) {
-    
-}
 @media screen and (max-width: 768px) {
     .team-members {
         grid-template-columns: repeat(2, auto);

@@ -65,7 +65,17 @@
   grid-column (property for an element in the grid): 1 / span 3 -> the element will start with position 1 and will go through three positions; 2 / 4 -> the element will start with position 2 and will stop before position 4;
 
   - Responsiveness
-box-sizing: border-box -> should be in the universal class
-@media screen -> a query to let the machine now how to behave for different screens, for example
-@media screen and (max-width: 600px) {} -> the changes will apply for the sreens with the width 600px and less 
- 
+  box-sizing: border-box -> should be in the universal class
+  @media screen -> a query to let the machine now how to behave for   different screens, for example
+  @media screen and (max-width: 600px) {} -> the changes will apply for   the sreens with the width 600px and less 
+
+  border-radius -> property to change the corners ob objects; if you   need to create a circle, you new the same height and width and set   border-radius: 50%
+
+  - Animation 
+
+  Transition - should be added to the initial element
+  trandition-property -> what we want to work with, all can be chosen
+  transition-duration -> how fasy the treansition should happen
+  transition-delay 
+  transition-timing-function
+  transition: all 0.3s linear (three properties in one) 
