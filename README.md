@@ -79,3 +79,13 @@
   transition-delay 
   transition-timing-function
   transition: all 0.3s linear (three properties in one) 
+
+  Transform - change an element in 2D or 3D
+  transform: rotate(), scale(), translate(), skew()
+  transform is goimg to work only for display: inline-block OR block
+
+  Animation - similar to transition, it's continuous
+  First, give a name within the block animation-name: circle-anim;
+  Next, use @keyframes circle-anim {}
+  Next, set animation-duration
+  Next, set the changes that are going to happen in specific time fractions

@@ -154,3 +154,51 @@ header {
     }
 }
 /* responsiveness ends here  */
+
+.parent-div {
+    background-color: rgb(48, 48, 48);
+    min-height: 100vh;
+}
+
+.circle-div {
+    background-color: chocolate;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    position: relative;
+    /* animation-name: circle-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    animation: circle-anim 4s linear infinite
+}
+
+@keyframes circle-anim {
+    0% {
+        background-color: yellowgreen;
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        background-color: aquamarine;
+        top: 100px;
+        left: 0px;
+    }
+    50% {
+        background-color: bisque;
+    }
+    75% {
+        background-color: blueviolet;
+        top: -100px;
+        left: 0px;
+    }
+    100% {
+        background-color: yellowgreen;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.circle-header {
+    color: white;
+}
