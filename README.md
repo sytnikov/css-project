@@ -106,7 +106,5 @@
   BEM - block, element, modifier (standard of naming classes)
   Element syntax: block__element
   Modifier syntax: block/element--modifier
-  
-  OOCSS
-  
-  SMACSS
+
+  OOCSS, SMACSS - other standards
