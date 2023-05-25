@@ -1,11 +1,39 @@
-h1 {
-    background-color: coral;
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.heading {
-    background-color: deepskyblue !important;
+div {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 30rem;
 }
 
-#title {
-    background-color: deeppink;
+.feedback {
+    background-color: bisque;
 }
+
+.card--large {
+    background-color: aqua;
+    width: 50rem;
+}
+
+.card__btn--large {
+    width: 20rem;
+}
+
+.btn {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+/* 1. there's a specificity issue -> avoid id or tag selectors,
+      use class selector 
+   2. class name clashes
+   3. not a standard name for a class */
+
+

@@ -103,4 +103,10 @@
   c - number of elements, pseudo elements in the selector
   
   
-  BEM / OOCSS / SMACSS
+  BEM - block, element, modifier (standard of naming classes)
+  Element syntax: block__element
+  Modifier syntax: block/element--modifier
+  
+  OOCSS
+  
+  SMACSS
