@@ -1,4 +1,10 @@
 /* reset code and common starts here  */
+
+/* varibles */
+:root {
+    --variable-name: value;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,4 +14,116 @@
     outline: none;
     font-weight: 400;
 }
+
+html {
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    width: 100rem;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
+}
 /* reset code and common ends here  */
+
+/* header styling starts here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 10vh;
+}
+
+.logo-figure {
+    border: 1px solid #fff;
+}
+
+.logo {
+    font-size: 4rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    padding: 1rem;
+    transition: all 0.3s;
+    border-radius: 0.5rem;
+}
+nav ul li:hover {
+    background-color: violet;
+}
+
+.nav__link {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+/* header styling ends here  */
+
+/* banner section starts here */
+.banner {
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.banner article {
+    flex-basis: 50%;
+    margin: 1rem;
+}
+
+.banner aside {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.banner-img {
+    height: 28rem;
+    width: 40rem;
+}
+/* banner section starts here */
+
+/* responsiveness starts here */
+@media screen and (max-width: 992px) {
+    
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 55.5%;
+    }
+}
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 48.5%;
+    }
+    header {
+        flex-direction: column;
+    }
+    .logo-figure {
+        margin: 2rem 0;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: center;
+
+}
+/* responsiveness ends here */
