@@ -89,3 +89,18 @@
   Next, use @keyframes circle-anim {}
   Next, set animation-duration
   Next, set the changes that are going to happen in specific time fractions
+
+  - CSS Architecture: 
+  
+  CSS Specificity: each selector has a specificity score, for example a header has (0, 0, 1), and a class (0, 1, 0) which is higher;
+  id selector has higher score (1, 0, 0);
+  inline styling has higher priority: if you add styling in the html file, it will be applied
+  !important sets the greatest priority
+  !important > inline style > id > class > tag/element
+  Specificity calculator: (a, b, c), where
+  a - number of id
+  b - number of classes, pseudo classes or attributes
+  c - number of elements, pseudo elements in the selector
+  
+  
+  BEM / OOCSS / SMACSS
