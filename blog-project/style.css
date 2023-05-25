@@ -1,0 +1,11 @@
+/* reset code and common starts here  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+}
+/* reset code and common ends here  */
