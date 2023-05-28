@@ -63,6 +63,12 @@ body {
     font-family: 'Lucida Console', monospace;
     text-align: center;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 /* reset code and common ends here  */
 
 /* header styling starts here  */
@@ -211,6 +217,22 @@ nav ul li:hover {
     transform: var(--scale);
 }
 /* archive section ends here */
+
+/* blog post section starts here */
+.blog-post {
+    width: 70%;
+    display: flex;
+    margin: 2rem 0;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
+    transition: var(--transition);
+}
+.blog-post:hover {
+    transform: var(--scale);
+}
+.blog-post__heading {
+    margin-bottom: 5rem;
+}
+/* blog post section ends here */
 
 /* responsiveness starts here */
 @media screen and (max-width: 992px) {
