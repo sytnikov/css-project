@@ -4,6 +4,7 @@
 :root {
     --transition: all 0.3s;
     --scale: scale(1.05);
+    --box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
 }
 
 * {
@@ -28,7 +29,7 @@ body {
     width: 100rem;
     max-width: 100%;
     margin: auto;
-    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
+    box-shadow: var(--box-shadow);
 }
 
 .text-justify {
@@ -223,7 +224,7 @@ nav ul li:hover {
     width: 70%;
     display: flex;
     margin: 2rem 0;
-    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
+    box-shadow: var(--box-shadow);
     transition: var(--transition);
     /* border-radius: 1rem; */
 }
@@ -260,6 +261,49 @@ nav ul li:hover {
     width: 50%;
 }
 /* blog post section ends here */
+
+/* contact section starts here */
+#contact-section {
+    background-color: #4c4c4c;
+    min-height: 95vh;
+}
+form {
+    /* box-shadow: var(--box-shadow); */
+    padding: 1rem;
+    margin: 1rem;
+}
+.form-control {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control label {
+    font-size: 1.6rem;
+    flex: 0.3;
+    color: #fff;
+}
+
+.form-control > input, textarea {
+    flex: 0.7;
+    width: 40rem;
+    padding: 2rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+}
+.form-control textarea {
+    resize: none;
+    height: 12vh;
+}
+.form-btn-field {
+    display: flex;
+    justify-content: flex-end;
+}
+.contact__btn {
+    width: 30%;
+}
+/* contact section ends here */
 
 /* responsiveness starts here */
 @media screen and (max-width: 992px) {
@@ -302,6 +346,9 @@ nav ul li:hover {
         width: 80%;
         flex-direction: column;
     }
+    #contact-section {
+        min-height: auto;
+    }
 }
 @media screen and (max-width: 600px) {
     html {
@@ -333,6 +380,12 @@ nav ul li:hover {
     }
     .blog-post {
         width: 90%;
+    }
+    form {
+        width: 90%;
+    }
+    .form-control {
+        flex-direction: column;
     }
 }
 /* responsiveness ends here */
