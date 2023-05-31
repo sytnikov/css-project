@@ -305,6 +305,31 @@ form {
 }
 /* contact section ends here */
 
+/* footer starts here  */
+.footer {
+    background-color: #222;
+    color: #fff;
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.copyright__text {
+    font-size: 1.5rem;
+}
+.footer__nav {
+    display: flex;
+    gap: 1.2rem;
+}
+.footer__link {
+    color: #fff;
+}
+.footer__icon {
+    font-size: 1.5rem;
+}
+/* footer ends here  */
+
 /* responsiveness starts here */
 @media screen and (max-width: 992px) {
     .banner {
